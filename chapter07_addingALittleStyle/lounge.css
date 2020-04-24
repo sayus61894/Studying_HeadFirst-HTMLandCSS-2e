@@ -1,10 +1,12 @@
+body {
+    font-family: sans-serif;
+}
 p {
     color: maroon;
 }
 
 h1,
 h2 {
-    font-family: sans-serif;
     color: gray;
 }
 
