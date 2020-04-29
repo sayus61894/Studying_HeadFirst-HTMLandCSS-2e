@@ -6,8 +6,15 @@
 
 body{
     font-family: Verdana, Geniva, Arial, sans-serif;
+    font-size: small;
 }
 
 h1{
     font-family: "Emblema One", sans-serif;
+    font-size: 2.2m;
+}
+
+h2{
+    font-size: 1.3em;
+    font-weight: normal;
 }
