@@ -45,6 +45,7 @@ h2 {
     background-repeat: repeat-x;
     font-family: serif;
     line-height: 1;
+    float: right;
 }
 
 #elixirs h2 {
