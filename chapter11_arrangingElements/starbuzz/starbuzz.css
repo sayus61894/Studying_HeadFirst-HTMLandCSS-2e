@@ -5,6 +5,15 @@ body {
     margin: 0px;
 }
 
+#allContent{
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #675c47;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #header {
     background-color: #675c47;
     margin: 10px;
@@ -15,7 +24,9 @@ body {
     background: #efe5d0 url(images/background.gif) top left;
     font-size: 105%;
     padding: 15px;
-    margin: 0px 330px 10px 10px;
+    margin: 0px 10px 10px 10px;
+    width: 420px;
+    float: left;
     
 }
 
@@ -23,9 +34,8 @@ body {
     background: #efe5d0 url(images/background.gif) bottom right;
     font-size: 105%;
     padding: 15px;
-    margin: 0px 10px 10px 10px;
-    width: 280px;
-    float: right;
+    margin: 0px 10px 10px 470px;
+
 }
 
 #footer {
@@ -35,6 +45,7 @@ body {
     padding: 15px;
     margin: 10px;
     font-size: 90%;
+    clear: both;
 }
 
 h1 {
