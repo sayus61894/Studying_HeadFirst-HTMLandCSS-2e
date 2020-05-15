@@ -33,7 +33,20 @@ td, th{
     border: thin dotted grey;
     padding: 5px;
 }
+th{
+    background-color: #cc6600;
+}
 caption{
     font-style: italic;
     padding-top: 8px;
 }
+.center-aligned{
+    text-align: center;
+}
+.right-aligned{
+    text-align: right;
+}
+.cellcolor{
+    background-color: #fcba7a;
+}
+
