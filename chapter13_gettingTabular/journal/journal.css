@@ -49,6 +49,9 @@ caption{
 .cellcolor{
     background-color: #fcba7a;
 } 
+td table th{
+    background-color: white;
+}
 /*
 tr:nth-child(odd){
     background-color: #fcba7a;
