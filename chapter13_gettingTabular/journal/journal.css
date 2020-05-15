@@ -48,5 +48,10 @@ caption{
 }
 .cellcolor{
     background-color: #fcba7a;
+} 
+/*
+tr:nth-child(odd){
+    background-color: #fcba7a;
 }
+*/
 
