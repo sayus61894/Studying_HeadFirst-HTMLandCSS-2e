@@ -1,0 +1,40 @@
+body{
+    background: #efe5d0 url(images/background.gif) top left;
+    margin: 20px;
+}
+.mainForm{
+    display: table;
+    padding: 20px 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+}
+.tablerow{
+    display: table-row;
+    width: 100%;
+}
+
+.tablerow>label, .tablerow>div, p#heading, #submit, #reset{
+    display: table-cell;
+}
+.tablerow>div div{
+    vertical-align: top;
+}
+#submit{
+    text-align: right;
+}
+.tablerow>label{
+    text-align: right;
+    padding: 5px;
+}
+p#heading{
+    text-align: right;
+    font-weight: bold;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+}
+#comments{
+    vertical-align: top;
+}
