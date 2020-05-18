@@ -4,7 +4,7 @@ body{
 }
 .mainForm{
     display: table;
-    padding: 20px 10px;
+    padding:20px 10px;
     border: thin dotted #7e7e7e;
     background-color: #e1ceb8;
 }
