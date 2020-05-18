@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+</head>
+
+<body>
+
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="post">
+        <fieldset>
+            <legend>
+                <h4>Starbuzz Bean Machine Order Form</h4>
+            </legend>
+            <fieldset>
+                <legend>Order Information</legend>
+                <p>
+                    <label for="bean">Choose Your Bean: </label>
+                    <select name="beans" id="bean">
+                        <option value="House Blend">House Blend</option>
+                        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                        <option value="Guatemala">Organic Guatemala</option>
+                        <option value="Kenya">Kenya</option>
+                    </select></p>
+                <p>
+                    <span>Type:</span><br>
+                    <input type="radio" id="ground" name="beantype" value="ground" checked>
+                    <label for="ground">Ground</label>
+                    <br>
+                    <input type="radio" id="whole" name="beantype" value="whole">
+                    <label for="whole">Whole Bean</label><br>
+                </p>
+                <p>
+                    <label for="bags">Number of Bags: </label>
+                    <input type="number" name="bags" id="bags" min="1" max="10"></p>
+                <p>
+                    <label for="arrival">Must Arrive by Date: </label>
+                    <input type="date" id="arrival" name="date">
+                </p>
+                <p>
+                    <span>Extras: </span><br>
+                    <input type="checkbox" name="extras[]" value="giftwrap" id="giftwrap">
+                    <label id="giftwrap">Gift Wrap</label><br>
+                    <input type="checkbox" name="extras[]" value="catalog" id="catalog" checked>
+                    <label for="catalog">Include Catalog with Order</label>
+                </p>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Shipping Address</legend>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="John Doe"><br>
+                <label for="address">Address: </label>
+                <input type="text" id="address" name="address" placeholder="123 Random St"><br>
+                <label for="city">City: </label>
+                <input type="text" id="city" name="city" placeholder="cityName"><br>
+                <label for="state">State: </label>
+                <input type="text" id="state" name="state" placeholder="State"><br>
+                <label for="zip">Zip: </label>
+                <input type="text" id="zip" name="zip" placeholder="12345"><br>
+                <label for="telephone">Tel: </label>
+                <input type="tel" id="telephone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Other</legend>
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea id="comments" name="comments" cols="50"></textarea>
+            </fieldset>
+            <p>
+                <input type="submit" value="Order Now">
+                <input type="reset" value="Clear Information">
+            </p>
+        </fieldset>
+    </form>
+
+
+</body></html>
