@@ -14,54 +14,54 @@
     <h2>Fill out the form below and click submit to order</h2>
     <form action="http://starbuzzcoffee.com/processorder.php" method="post">
         <div class="mainForm">
-            <div class="tablerow">
-                <p id="heading">Order Information</p>
-            </div>
-            <div class="tablerow">
-                <label for="bean">Choose Your Bean: </label>
-                <select name="beans" id="bean">
-                    <option value="House Blend">House Blend</option>
-                    <option value="Bolivia">Shade Grown Bolivia Supremo</option>
-                    <option value="Guatemala">Organic Guatemala</option>
-                    <option value="Kenya">Kenya</option>
-                </select>
-            </div>
-            <div class="tablerow">
-                <label>Type:</label>
-                <div>
-                    <div>
-                        <input type="radio" id="ground" name="beantype" value="ground" checked>
-                        <label for="ground">Ground</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="whole" name="beantype" value="whole">
-                        <label for="whole">Whole Bean</label></div>
-                </div>
-            </div>
-            <div class="tablerow">
-                <label for="bags">Number of Bags: </label>
-                <input type="number" name="bags" id="bags" min="1" max="10">
-            </div>
-            <div class="tablerow">
-                <label for="arrival">Must Arrive by Date: </label>
-                <input type="date" id="arrival" name="date">
-            </div>
-            <div class="tablerow">
-                <label>Extras: </label>
-                <div>
-                    <div>
-                        <input type="checkbox" name="extras[]" value="giftwrap" id="giftwrap">
-                        <label for="giftwrap">Gift Wrap</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="extras[]" value="catalog" id="catalog" checked>
-                        <label for="catalog">Include Catalog with Order</label>
-                    </div>
-                </div>
-            </div>
+            <fieldset>
+               <legend>Starbuzz Order</legend>
                 <div class="tablerow">
-                    <p id="heading">Shipping Information</p>
+                    <label for="bean">Choose Your Bean: </label>
+                    <select name="beans" id="bean">
+                        <option value="House Blend">House Blend</option>
+                        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                        <option value="Guatemala">Organic Guatemala</option>
+                        <option value="Kenya">Kenya</option>
+                    </select>
                 </div>
+                <div class="tablerow">
+                    <label>Type:</label>
+                    <div>
+                        <div>
+                            <input type="radio" id="ground" name="beantype" value="ground" checked>
+                            <label for="ground">Ground</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="whole" name="beantype" value="whole">
+                            <label for="whole">Whole Bean</label></div>
+                    </div>
+                </div>
+                <div class="tablerow">
+                    <label for="bags">Number of Bags: </label>
+                    <input type="number" name="bags" id="bags" min="1" max="10">
+                </div>
+                <div class="tablerow">
+                    <label for="arrival">Must Arrive by Date: </label>
+                    <input type="date" id="arrival" name="date">
+                </div>
+                <div class="tablerow">
+                    <label>Extras: </label>
+                    <div>
+                        <div>
+                            <input type="checkbox" name="extras[]" value="giftwrap" id="giftwrap">
+                            <label for="giftwrap">Gift Wrap</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="extras[]" value="catalog" id="catalog" checked>
+                            <label for="catalog">Include Catalog with Order</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+               <legend>Shipping Information</legend>
                 <div class="tablerow">
                     <label for="name">Name: </label>
                     <input type="text" id="name" name="name" placeholder="John Doe">
@@ -98,10 +98,9 @@
                         <input type="reset" value="Clear Information">
                     </div>
                 </div>
-            </div>
+            </fieldset>
+        </div>
     </form>
 
 
-</body>
-
-</html>
+</body></html>
